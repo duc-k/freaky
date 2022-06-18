@@ -5,6 +5,7 @@ const Container = styled.div`
   height: 100%;
   display: grid;
   grid-template-columns: 350px 1fr;
+
   @media (max-width: 600px) {
     grid-template-columns: 1fr;
   }
