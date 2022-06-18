@@ -7,6 +7,7 @@ const Container = styled.main`
   @media (max-width: 600px) {
     margin-top: 2rem;
   }
+
   .repositories {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -15,7 +16,7 @@ const Container = styled.main`
     > li {
       padding: 1rem;
       border-radius: 0.5rem;
-      background: #22252a;
+      background: #26282e;
       border: 2px solid transparent;
       cursor: pointer;
       transition: all 500ms;
@@ -30,15 +31,14 @@ const Container = styled.main`
       flex-direction: column;
       transition: 400ms;
       &:hover {
-        color: #fffda2 !important;
+        color: #ffe87f !important;
       }
     }
     strong {
       display: block;
       margin-bottom: 5px;
-      font-size: 1rem;
-      font-family: "dm mono medium";
-      text-transform: uppercase;
+      font-size: 1.3rem;
+      font-family: "Jolly Lodger", cursive;
     }
     p {
       color: #768390;

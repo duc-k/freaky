@@ -4,9 +4,12 @@ const Container = styled.aside`
   display: flex;
   flex-direction: column;
   align-items: center;
+
   img {
+    width: 300px;
     border-radius: 16px;
   }
+
   .profile__info {
     display: flex;
     flex-direction: column;
@@ -19,6 +22,7 @@ const Container = styled.aside`
     strong {
       display: block;
     }
+
     a {
       display: flex;
       align-items: center;
@@ -27,8 +31,9 @@ const Container = styled.aside`
       margin-top: 20px;
       border-radius: 8px;
       color: #000;
-      background: #fffda2;
+      background: #ffe87f;
     }
+
     svg {
       width: 20px;
     }
